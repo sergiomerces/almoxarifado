@@ -58,6 +58,24 @@ h1 {
     border-radius: 22px;
     text-align: center;
     line-height: 3rem;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+section > div:hover{
+    background-color: #407ad1;
+}
+
+a:visited {
+    color: #000000;
+}
+
+a:hover {
+    color: #ffffff;
 }
 
 footer {
