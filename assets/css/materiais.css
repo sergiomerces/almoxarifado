@@ -1,16 +1,22 @@
 @charset "UTF-8";
 
+body {
+    background-color: azure;
+}
+
 section {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
     margin-top: 50px;
+    
 }
 
 div.material {
     width: 19rem;
-    border: 1px solid #000000;
+    border: 1px solid #407ad1;
+    border-radius: 25px;
     padding: 10px;
 }
 
